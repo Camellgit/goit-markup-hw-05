@@ -65,12 +65,23 @@
         <div class="introduction">
         <div class="image-group">
         <h1>EFFECTIVE SOLUTIONS FOR <br>YOUR BUSINESS</h1>
-        <button type="button" class="request-services">
-          Request our Services
-        </button>
+        <a type="button" class="request-services">
+          Request Our Services
+        </a>
       </div>
     </div>
       </section>
+      <section class="modal">
+        <div class="modal-container">
+          <button type="button" class="modal-close" data-modal-close>
+            <svg class="icon-close">
+                <use class="img-close" href="images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        </div>
+    </div>
+</div>
+</section>
       <section class="section">
         <div class="benefits-section container">
           <ul class="benefits-container">
@@ -138,18 +149,27 @@
         <div class="container">
           <h2 class="text-us">What We Do</h2>
           <ul class="imag-container-work">
-            <li>
+            <li class="services">
               <img src="./images/caja1.jpg" width="370" alt="Developer Web" />
+              <div class="tittle-services">
+                <p>DESKTOP APPS</p>
+              </div>
             </li>
-            <li>
+            <li class="services">
               <img
                 src="./images/caja2.jpg"
                 width="370"
                 alt="Developer Mobil "
               />
+              <div class="tittle-services">
+                <p>MOBILE APPS</p>
+              </div>
             </li>
-            <li>
+            <li class="services">
               <img src="./images/caja3.jpg" width="370" alt="Web Dessign" />
+              <div class="tittle-services">
+                <p>DESIGN SOLUTIONS</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -393,5 +413,7 @@
       </div>
     </div>
     </footer>
+    
+    <script src="./modal.js"></script>  
   </body>
 </html>
